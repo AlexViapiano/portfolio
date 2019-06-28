@@ -287,7 +287,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 3em 0;
+		margin: 0em 0em;
 	}
 
 		header > :first-child {
@@ -295,12 +295,12 @@ input, select, textarea {
 		}
 
 			header > :first-child:after {
-				content: '';
+				/* content: '';
 				display: block;
 				background-color: #cccccc;
 				height: 1px;
 				margin: 1.5rem 0 1.75rem 0;
-				width: 5rem;
+				width: 5rem; */
 			}
 
 				.special header > :first-child:after {
