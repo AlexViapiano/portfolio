@@ -702,11 +702,15 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 			.image.fit img {
-				width: 100%;
-				max-width: 125px;
+				width: 90%;
+				min-width: 125px;
+				max-width: 200px;
 			}
 
 		.image.main {
