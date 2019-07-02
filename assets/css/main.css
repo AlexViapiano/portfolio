@@ -309,10 +309,10 @@ input, select, textarea {
 				}
 
 		header p {
-			font-size: 0.9em;
+			font-size: 1em;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			text-transform: unset;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1592,3 +1592,31 @@ input, select, textarea {
 		body.is-preload-0 #footer {
 			opacity: 0;
 		}
+
+		.special-button {
+			line-height: 23px !important;
+			height: 37px !important;
+			width: 164px !important;
+			text-decoration: none !important;
+			display: inline-flex !important;
+			color: #000000 !important;
+			background-color: lightgray!important;
+			border-radius: 3px !important;
+			border: 1px solid transparent !important;
+			padding: 10px 9px !important;
+			font-size: 20px !important;
+			letter-spacing: 0.6px !important;
+			box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+			-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+			margin: 0 auto !important;
+			margin-top: 20px !important;
+			font-family: Raleway, Helvetica, sans-serif !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+			-o-transition: 0.3s all linear !important;
+			-webkit-transition: 0.3s all linear !important;
+			-moz-transition: 0.3s all linear !important;
+			-ms-transition: 0.3s all linear !important;
+			transition: 0.3s all linear !important;
+		}
+	
