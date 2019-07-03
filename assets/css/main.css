@@ -1619,4 +1619,17 @@ input, select, textarea {
 			-ms-transition: 0.3s all linear !important;
 			transition: 0.3s all linear !important;
 		}
-	
+
+.form-button-container {
+	display: flex; 
+	justify-content: space-between;
+}
+
+@media all and (max-width: 640px) {
+	.form-button-container{
+		flex-flow: column wrap;  
+		width: 40px;   
+		flex-grow: 0;
+		flex-basis: 50%;
+	}    
+}
