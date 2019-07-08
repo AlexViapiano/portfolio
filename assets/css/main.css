@@ -171,7 +171,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.2em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -310,10 +310,9 @@ input, select, textarea {
 
 		header p {
 			font-size: 1em;
-			letter-spacing: 0.25em;
 			margin-bottom: 0;
 			text-transform: unset;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family: Raleway, Helvetica, sans-serif;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -712,6 +711,7 @@ input, select, textarea {
 				width: 90%;
 				min-width: 125px;
 				max-width: 200px;
+				padding: 2px;
 			}
 
 		.image.main {
@@ -1231,7 +1231,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			#wrapper {
 				padding: 2em;
@@ -1408,7 +1408,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			.panel {
 				-moz-flex-direction: column;
@@ -1504,7 +1504,7 @@ input, select, textarea {
 				transform: translateX(-4em);
 			}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 800px) {
 
 				body.is-preload-0 .panel {
 					-moz-transform: translateZ(-2em);
@@ -1633,4 +1633,14 @@ input, select, textarea {
 		flex-grow: 0;
 		flex-basis: 50%;
 	}    
+}	
+
+@media all and (max-width: 450px) {
+	.apps {
+		display: none;
+	}
+	
+	.apps-mobile {
+		display: block !important;
+	}
 }	
